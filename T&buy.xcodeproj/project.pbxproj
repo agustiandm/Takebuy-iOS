@@ -3,27 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		52849B3D24EDF56500D59D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849B3C24EDF56500D59D56 /* AppDelegate.swift */; };
 		52849B3F24EDF56500D59D56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849B3E24EDF56500D59D56 /* SceneDelegate.swift */; };
-		52849B4124EDF56500D59D56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849B4024EDF56500D59D56 /* ViewController.swift */; };
-		52849B4424EDF56500D59D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52849B4224EDF56500D59D56 /* Main.storyboard */; };
 		52849B4624EDF56800D59D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52849B4524EDF56800D59D56 /* Assets.xcassets */; };
 		52849B4924EDF56800D59D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52849B4724EDF56800D59D56 /* LaunchScreen.storyboard */; };
+		528C1F6524EE225100A481BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528C1F6424EE225100A481BF /* Main.storyboard */; };
+		528C1F6724EE286C00A481BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 528C1F6624EE286C00A481BF /* GoogleService-Info.plist */; };
+		528C1F6E24EE28EC00A481BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6924EE28EC00A481BF /* Constants.swift */; };
+		528C1F6F24EE28EC00A481BF /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6A24EE28EC00A481BF /* Downloader.swift */; };
+		528C1F7024EE28EC00A481BF /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6B24EE28EC00A481BF /* Ref.swift */; };
+		528C1F7124EE28EC00A481BF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6C24EE28EC00A481BF /* Reachability.swift */; };
+		528C1F7224EE28EC00A481BF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6D24EE28EC00A481BF /* Extension.swift */; };
+		528C1F7A24EE2D0200A481BF /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7424EE2D0200A481BF /* AlgoliaService.swift */; };
+		528C1F7B24EE2D0200A481BF /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7524EE2D0200A481BF /* StripeClient.swift */; };
+		528C1F7C24EE2D0200A481BF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7624EE2D0200A481BF /* Item.swift */; };
+		528C1F7D24EE2D0200A481BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7724EE2D0200A481BF /* User.swift */; };
+		528C1F7E24EE2D0200A481BF /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7824EE2D0200A481BF /* Category.swift */; };
+		528C1F7F24EE2D0200A481BF /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F7924EE2D0200A481BF /* Cart.swift */; };
+		528C1F8624EE2D2100A481BF /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8124EE2D1C00A481BF /* ItemTableViewCell.swift */; };
+		528C1F8724EE2D2100A481BF /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8224EE2D1E00A481BF /* ItemCollectionViewCell.swift */; };
+		528C1F8824EE2D2100A481BF /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8324EE2D1F00A481BF /* CategoryCollectionViewCell.swift */; };
+		528C1F8924EE2D2100A481BF /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8424EE2D2100A481BF /* ImageCollectionViewCell.swift */; };
+		528C1F9F24EE2FF600A481BF /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8E24EE2FF600A481BF /* CardInfoViewController.swift */; };
+		528C1FA024EE2FF600A481BF /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F8F24EE2FF600A481BF /* CartViewController.swift */; };
+		528C1FA124EE2FF600A481BF /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9024EE2FF600A481BF /* SearchViewController.swift */; };
+		528C1FA224EE2FF600A481BF /* PromoContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9124EE2FF600A481BF /* PromoContentViewController.swift */; };
+		528C1FA424EE2FF600A481BF /* DetailItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9324EE2FF600A481BF /* DetailItemViewController.swift */; };
+		528C1FA524EE2FF600A481BF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9424EE2FF600A481BF /* EditProfileViewController.swift */; };
+		528C1FA724EE2FF600A481BF /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9624EE2FF600A481BF /* ProfileTableViewController.swift */; };
+		528C1FA824EE2FF600A481BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9724EE2FF600A481BF /* HomeViewController.swift */; };
+		528C1FA924EE2FF600A481BF /* OrderHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9824EE2FF600A481BF /* OrderHistoryTableViewController.swift */; };
+		528C1FAA24EE2FF600A481BF /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9924EE2FF600A481BF /* AddItemViewController.swift */; };
+		528C1FAB24EE2FF600A481BF /* ItemsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9A24EE2FF600A481BF /* ItemsCollectionViewController.swift */; };
+		528C1FAC24EE2FF600A481BF /* FinishSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9C24EE2FF600A481BF /* FinishSignUpViewController.swift */; };
+		528C1FAD24EE2FF600A481BF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9D24EE2FF600A481BF /* WelcomeViewController.swift */; };
+		528C1FAE24EE2FF600A481BF /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F9E24EE2FF600A481BF /* ResetViewController.swift */; };
+		96746E2C49F9133F48839F59 /* Pods_T_buy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB766021CE0F0DA79131E49F /* Pods_T_buy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52849B3924EDF56500D59D56 /* T&buy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T&buy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE48DB3E3AE6B61E98CAF59 /* Pods-T&buy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T&buy.debug.xcconfig"; path = "Target Support Files/Pods-T&buy/Pods-T&buy.debug.xcconfig"; sourceTree = "<group>"; };
+		52849B3924EDF56500D59D56 /* Takebuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Takebuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52849B3C24EDF56500D59D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52849B3E24EDF56500D59D56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52849B4024EDF56500D59D56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52849B4324EDF56500D59D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52849B4524EDF56800D59D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52849B4824EDF56800D59D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52849B4A24EDF56800D59D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528C1F6424EE225100A481BF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		528C1F6624EE286C00A481BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "T&buy/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		528C1F6924EE28EC00A481BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		528C1F6A24EE28EC00A481BF /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		528C1F6B24EE28EC00A481BF /* Ref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
+		528C1F6C24EE28EC00A481BF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		528C1F6D24EE28EC00A481BF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		528C1F7424EE2D0200A481BF /* AlgoliaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		528C1F7524EE2D0200A481BF /* StripeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		528C1F7624EE2D0200A481BF /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		528C1F7724EE2D0200A481BF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		528C1F7824EE2D0200A481BF /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		528C1F7924EE2D0200A481BF /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		528C1F8124EE2D1C00A481BF /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		528C1F8224EE2D1E00A481BF /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		528C1F8324EE2D1F00A481BF /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		528C1F8424EE2D2100A481BF /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		528C1F8E24EE2FF600A481BF /* CardInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		528C1F8F24EE2FF600A481BF /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		528C1F9024EE2FF600A481BF /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		528C1F9124EE2FF600A481BF /* PromoContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoContentViewController.swift; sourceTree = "<group>"; };
+		528C1F9324EE2FF600A481BF /* DetailItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailItemViewController.swift; sourceTree = "<group>"; };
+		528C1F9424EE2FF600A481BF /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		528C1F9624EE2FF600A481BF /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		528C1F9724EE2FF600A481BF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		528C1F9824EE2FF600A481BF /* OrderHistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryTableViewController.swift; sourceTree = "<group>"; };
+		528C1F9924EE2FF600A481BF /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		528C1F9A24EE2FF600A481BF /* ItemsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewController.swift; sourceTree = "<group>"; };
+		528C1F9C24EE2FF600A481BF /* FinishSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishSignUpViewController.swift; sourceTree = "<group>"; };
+		528C1F9D24EE2FF600A481BF /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		528C1F9E24EE2FF600A481BF /* ResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		CCE88D2F642DE501867414A9 /* Pods-T&buy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T&buy.release.xcconfig"; path = "Target Support Files/Pods-T&buy/Pods-T&buy.release.xcconfig"; sourceTree = "<group>"; };
+		FB766021CE0F0DA79131E49F /* Pods_T_buy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_buy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96746E2C49F9133F48839F59 /* Pods_T_buy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211D68DFA4DA5038DBB86C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE48DB3E3AE6B61E98CAF59 /* Pods-T&buy.debug.xcconfig */,
+				CCE88D2F642DE501867414A9 /* Pods-T&buy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		52849B3024EDF56500D59D56 = {
 			isa = PBXGroup;
 			children = (
 				52849B3B24EDF56500D59D56 /* T&buy */,
 				52849B3A24EDF56500D59D56 /* Products */,
+				211D68DFA4DA5038DBB86C3A /* Pods */,
+				55645252E018DDA9864F4F86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		52849B3A24EDF56500D59D56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52849B3924EDF56500D59D56 /* T&buy.app */,
+				52849B3924EDF56500D59D56 /* Takebuy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +130,109 @@
 		52849B3B24EDF56500D59D56 /* T&buy */ = {
 			isa = PBXGroup;
 			children = (
-				52849B3C24EDF56500D59D56 /* AppDelegate.swift */,
-				52849B3E24EDF56500D59D56 /* SceneDelegate.swift */,
-				52849B4024EDF56500D59D56 /* ViewController.swift */,
-				52849B4224EDF56500D59D56 /* Main.storyboard */,
-				52849B4524EDF56800D59D56 /* Assets.xcassets */,
-				52849B4724EDF56800D59D56 /* LaunchScreen.storyboard */,
+				528C1F7324EE2D0200A481BF /* Model */,
+				528C1F6124EE21E600A481BF /* View */,
+				528C1F8D24EE2FF600A481BF /* Controller */,
+				528C1F6824EE28EC00A481BF /* Helpers */,
+				528C1F5F24EE21C400A481BF /* Resources */,
 				52849B4A24EDF56800D59D56 /* Info.plist */,
+				528C1F6624EE286C00A481BF /* GoogleService-Info.plist */,
 			);
 			path = "T&buy";
+			sourceTree = "<group>";
+		};
+		528C1F5F24EE21C400A481BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52849B3C24EDF56500D59D56 /* AppDelegate.swift */,
+				52849B3E24EDF56500D59D56 /* SceneDelegate.swift */,
+				52849B4524EDF56800D59D56 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		528C1F6124EE21E600A481BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F8324EE2D1F00A481BF /* CategoryCollectionViewCell.swift */,
+				528C1F8424EE2D2100A481BF /* ImageCollectionViewCell.swift */,
+				528C1F8224EE2D1E00A481BF /* ItemCollectionViewCell.swift */,
+				528C1F8124EE2D1C00A481BF /* ItemTableViewCell.swift */,
+				528C1F8C24EE2FB100A481BF /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		528C1F6824EE28EC00A481BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F6924EE28EC00A481BF /* Constants.swift */,
+				528C1F6A24EE28EC00A481BF /* Downloader.swift */,
+				528C1F6B24EE28EC00A481BF /* Ref.swift */,
+				528C1F6C24EE28EC00A481BF /* Reachability.swift */,
+				528C1F6D24EE28EC00A481BF /* Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		528C1F7324EE2D0200A481BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F7424EE2D0200A481BF /* AlgoliaService.swift */,
+				528C1F7524EE2D0200A481BF /* StripeClient.swift */,
+				528C1F7624EE2D0200A481BF /* Item.swift */,
+				528C1F7724EE2D0200A481BF /* User.swift */,
+				528C1F7824EE2D0200A481BF /* Category.swift */,
+				528C1F7924EE2D0200A481BF /* Cart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		528C1F8C24EE2FB100A481BF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F6424EE225100A481BF /* Main.storyboard */,
+				52849B4724EDF56800D59D56 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		528C1F8D24EE2FF600A481BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F9B24EE2FF600A481BF /* Authentification */,
+				528C1F9724EE2FF600A481BF /* HomeViewController.swift */,
+				528C1F9024EE2FF600A481BF /* SearchViewController.swift */,
+				528C1F9124EE2FF600A481BF /* PromoContentViewController.swift */,
+				528C1F9924EE2FF600A481BF /* AddItemViewController.swift */,
+				528C1F9A24EE2FF600A481BF /* ItemsCollectionViewController.swift */,
+				528C1F9324EE2FF600A481BF /* DetailItemViewController.swift */,
+				528C1F8F24EE2FF600A481BF /* CartViewController.swift */,
+				528C1F8E24EE2FF600A481BF /* CardInfoViewController.swift */,
+				528C1F9624EE2FF600A481BF /* ProfileTableViewController.swift */,
+				528C1F9424EE2FF600A481BF /* EditProfileViewController.swift */,
+				528C1F9824EE2FF600A481BF /* OrderHistoryTableViewController.swift */,
+			);
+			name = Controller;
+			path = View/Controller;
+			sourceTree = "<group>";
+		};
+		528C1F9B24EE2FF600A481BF /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				528C1F9C24EE2FF600A481BF /* FinishSignUpViewController.swift */,
+				528C1F9D24EE2FF600A481BF /* WelcomeViewController.swift */,
+				528C1F9E24EE2FF600A481BF /* ResetViewController.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		55645252E018DDA9864F4F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB766021CE0F0DA79131E49F /* Pods_T_buy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +242,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52849B4D24EDF56800D59D56 /* Build configuration list for PBXNativeTarget "T&buy" */;
 			buildPhases = (
+				7831779275ECCDAFB64C3944 /* [CP] Check Pods Manifest.lock */,
 				52849B3524EDF56500D59D56 /* Sources */,
 				52849B3624EDF56500D59D56 /* Frameworks */,
 				52849B3724EDF56500D59D56 /* Resources */,
+				FDFEF7C52B3BA24DEADCF552 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +254,7 @@
 			);
 			name = "T&buy";
 			productName = "T&buy";
-			productReference = 52849B3924EDF56500D59D56 /* T&buy.app */;
+			productReference = 52849B3924EDF56500D59D56 /* Takebuy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,36 +295,99 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528C1F6524EE225100A481BF /* Main.storyboard in Resources */,
+				528C1F6724EE286C00A481BF /* GoogleService-Info.plist in Resources */,
 				52849B4924EDF56800D59D56 /* LaunchScreen.storyboard in Resources */,
 				52849B4624EDF56800D59D56 /* Assets.xcassets in Resources */,
-				52849B4424EDF56500D59D56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7831779275ECCDAFB64C3944 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T&buy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDFEF7C52B3BA24DEADCF552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T&buy/Pods-T&buy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-T&buy/Pods-T&buy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-T&buy/Pods-T&buy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52849B3524EDF56500D59D56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52849B4124EDF56500D59D56 /* ViewController.swift in Sources */,
+				528C1F7C24EE2D0200A481BF /* Item.swift in Sources */,
+				528C1FAD24EE2FF600A481BF /* WelcomeViewController.swift in Sources */,
+				528C1FA224EE2FF600A481BF /* PromoContentViewController.swift in Sources */,
 				52849B3D24EDF56500D59D56 /* AppDelegate.swift in Sources */,
+				528C1F7B24EE2D0200A481BF /* StripeClient.swift in Sources */,
+				528C1FAA24EE2FF600A481BF /* AddItemViewController.swift in Sources */,
+				528C1FAE24EE2FF600A481BF /* ResetViewController.swift in Sources */,
+				528C1F8824EE2D2100A481BF /* CategoryCollectionViewCell.swift in Sources */,
+				528C1F7F24EE2D0200A481BF /* Cart.swift in Sources */,
+				528C1F7A24EE2D0200A481BF /* AlgoliaService.swift in Sources */,
+				528C1FA724EE2FF600A481BF /* ProfileTableViewController.swift in Sources */,
+				528C1FA524EE2FF600A481BF /* EditProfileViewController.swift in Sources */,
+				528C1F8924EE2D2100A481BF /* ImageCollectionViewCell.swift in Sources */,
 				52849B3F24EDF56500D59D56 /* SceneDelegate.swift in Sources */,
+				528C1F7224EE28EC00A481BF /* Extension.swift in Sources */,
+				528C1FA024EE2FF600A481BF /* CartViewController.swift in Sources */,
+				528C1FA824EE2FF600A481BF /* HomeViewController.swift in Sources */,
+				528C1FAC24EE2FF600A481BF /* FinishSignUpViewController.swift in Sources */,
+				528C1FA124EE2FF600A481BF /* SearchViewController.swift in Sources */,
+				528C1F8624EE2D2100A481BF /* ItemTableViewCell.swift in Sources */,
+				528C1F7124EE28EC00A481BF /* Reachability.swift in Sources */,
+				528C1FAB24EE2FF600A481BF /* ItemsCollectionViewController.swift in Sources */,
+				528C1F6F24EE28EC00A481BF /* Downloader.swift in Sources */,
+				528C1F6E24EE28EC00A481BF /* Constants.swift in Sources */,
+				528C1FA424EE2FF600A481BF /* DetailItemViewController.swift in Sources */,
+				528C1FA924EE2FF600A481BF /* OrderHistoryTableViewController.swift in Sources */,
+				528C1F7024EE28EC00A481BF /* Ref.swift in Sources */,
+				528C1F9F24EE2FF600A481BF /* CardInfoViewController.swift in Sources */,
+				528C1F8724EE2D2100A481BF /* ItemCollectionViewCell.swift in Sources */,
+				528C1F7D24EE2D0200A481BF /* User.swift in Sources */,
+				528C1F7E24EE2D0200A481BF /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52849B4224EDF56500D59D56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52849B4324EDF56500D59D56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52849B4724EDF56800D59D56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,8 +515,10 @@
 		};
 		52849B4E24EDF56800D59D56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE48DB3E3AE6B61E98CAF59 /* Pods-T&buy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BLXFF54X7S;
 				INFOPLIST_FILE = "T&buy/Info.plist";
@@ -291,17 +526,21 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MYDM.T-buy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = MYDM.Takeandbuy;
+				PRODUCT_NAME = Takebuy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52849B4F24EDF56800D59D56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE88D2F642DE501867414A9 /* Pods-T&buy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BLXFF54X7S;
 				INFOPLIST_FILE = "T&buy/Info.plist";
@@ -309,10 +548,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "MYDM.T-buy";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = MYDM.Takeandbuy;
+				PRODUCT_NAME = Takebuy;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

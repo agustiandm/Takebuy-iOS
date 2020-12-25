@@ -33,6 +33,8 @@ class CartViewController: UIViewController {
         self.tableView.tableFooterView = UIView()
         
         setupUI()
+        
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {

@@ -16,7 +16,7 @@ enum Constats {
 }
 
 //ID & Key
-public let FILEREFERENCE = "gs://takebuy-e39a3.appspot.com"
+public let FILEREFERENCE = "gs://takebuy-ios.appspot.com"
 public let ALGOLIA_APP_ID = "7I6PS3DK7S"
 public let ALGOLIA_SEARCH_KEY = "dda603b70af6e052967acc5743a501c3"
 public let ALGOLIA_ADMIN_KEY = "b202a4ea69cfc2604fb044384619ec3a"

@@ -85,7 +85,7 @@ func downloadCategoriesFromFirebase(completion: @escaping (_ categoryArray: [Cat
 //   let cs = Category(_name: "Shoes", _imageName: "cs")
 //    let ca = Category(_name: "Accessories" , _imageName: "ca")
 //
-//    let arrayOfCategories = [cj, ct]
+//    let arrayOfCategories = [cs, ca]
 //
 //    for category in arrayOfCategories {
 //        saveCategoryToFirebase(category)

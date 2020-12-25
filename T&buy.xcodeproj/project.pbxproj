@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521B0ECB25959BBE0068627F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 521B0ECA25959BBE0068627F /* GoogleService-Info.plist */; };
 		52849B3D24EDF56500D59D56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849B3C24EDF56500D59D56 /* AppDelegate.swift */; };
 		52849B3F24EDF56500D59D56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52849B3E24EDF56500D59D56 /* SceneDelegate.swift */; };
 		52849B4624EDF56800D59D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52849B4524EDF56800D59D56 /* Assets.xcassets */; };
 		52849B4924EDF56800D59D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52849B4724EDF56800D59D56 /* LaunchScreen.storyboard */; };
 		528C1F6524EE225100A481BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528C1F6424EE225100A481BF /* Main.storyboard */; };
-		528C1F6724EE286C00A481BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 528C1F6624EE286C00A481BF /* GoogleService-Info.plist */; };
 		528C1F6E24EE28EC00A481BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6924EE28EC00A481BF /* Constants.swift */; };
 		528C1F6F24EE28EC00A481BF /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6A24EE28EC00A481BF /* Downloader.swift */; };
 		528C1F7024EE28EC00A481BF /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C1F6B24EE28EC00A481BF /* Ref.swift */; };
@@ -47,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		4DE48DB3E3AE6B61E98CAF59 /* Pods-T&buy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T&buy.debug.xcconfig"; path = "Target Support Files/Pods-T&buy/Pods-T&buy.debug.xcconfig"; sourceTree = "<group>"; };
+		521B0ECA25959BBE0068627F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		52849B3924EDF56500D59D56 /* Takebuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Takebuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52849B3C24EDF56500D59D56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52849B3E24EDF56500D59D56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		52849B4824EDF56800D59D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52849B4A24EDF56800D59D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528C1F6424EE225100A481BF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		528C1F6624EE286C00A481BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "T&buy/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		528C1F6924EE28EC00A481BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		528C1F6A24EE28EC00A481BF /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		528C1F6B24EE28EC00A481BF /* Ref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 				528C1F6824EE28EC00A481BF /* Helpers */,
 				528C1F5F24EE21C400A481BF /* Resources */,
 				52849B4A24EDF56800D59D56 /* Info.plist */,
-				528C1F6624EE286C00A481BF /* GoogleService-Info.plist */,
+				521B0ECA25959BBE0068627F /* GoogleService-Info.plist */,
 			);
 			path = "T&buy";
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				528C1F6524EE225100A481BF /* Main.storyboard in Resources */,
-				528C1F6724EE286C00A481BF /* GoogleService-Info.plist in Resources */,
+				521B0ECB25959BBE0068627F /* GoogleService-Info.plist in Resources */,
 				52849B4924EDF56800D59D56 /* LaunchScreen.storyboard in Resources */,
 				52849B4624EDF56800D59D56 /* Assets.xcassets in Resources */,
 			);

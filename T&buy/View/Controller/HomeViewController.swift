@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         setupUI()
         collectionView.delegate = self
         collectionView.dataSource = self
+//        createCategorySet()
     }
     
     override func viewDidAppear(_ animated: Bool) {
